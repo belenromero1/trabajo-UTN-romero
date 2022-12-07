@@ -1,0 +1,8 @@
+.header{
+    background-color: rgb(178, 5, 62);
+}
+.header p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}

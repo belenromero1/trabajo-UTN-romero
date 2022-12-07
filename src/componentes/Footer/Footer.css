@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.header{
+    background-color: rgb(178, 5, 62);
+}
+.header p{
+    color: white;
+    text-align: center;
+}
+.footer{
+    background-color: whitesmoke;
+    height: 40vh;
+}
+.textoIconos{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    color: rgb(178, 5, 62)
+}
+.iconos{
+    color:  rgb(178, 5, 62);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.youtube{
+    font-size: 45px;
+}
+.labelFooter{
+    display: flex;
+    justify-content: center;
+    color: rgb(178, 5, 62);
+}
+.correo{
+    background-color: white;
+}
+.suscribirse{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.botonSuscribirse input{
+    width: 100px;
+    background-color:rgb(182, 9, 67) ;
+    color: white;
+}
+
+@media(max-width:768px){
+    .footer{
+        height: 40vh;
+    }
+}

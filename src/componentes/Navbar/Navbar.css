@@ -1,0 +1,39 @@
+
+.logo img{
+    width: 200px;
+    margin: 10px;
+}
+.contenedorMenu{
+    display: flex;
+    gap: 3rem;
+    margin: 1rem;
+    padding: 0 5rem;
+}
+.menu{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu:hover{
+    color:rgb(176, 8, 64);
+    transition: 0.2s;
+    
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media(max-width:768px){
+    .contenedorMenu{
+        display: flex;
+        justify-content: space-around;
+        gap: 1.5rem;
+        padding: 0 1rem;
+        margin-right: 5rem;
+    
+    }
+        
+}
